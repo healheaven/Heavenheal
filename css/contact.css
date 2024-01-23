@@ -1,0 +1,110 @@
+/* top nav */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+} 
+ 
+body, html {
+  height: 100%;
+  width: 100%;
+  background-image: url(C:/Users/HP/OneDrive/Desktop/vamsi%20manohar%20website/images/campus.jpg);
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 390px;
+  padding: 16px;
+  background-color: #ffd49617;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password], input[type=email], input[type=tel] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+input[type=varchar]{
+  background-color: #ddd;
+  border: none;
+  width: 316px;
+  height: 216px;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1;
+}
+
+.btn:hover {
+  opacity: 1.5;
+} 
+
+
+
+.Hmm{
+    animation: blinking 5s infinite; 
+    font-size: 25; 
+   
+    float: left;
+} 
+@keyframes blinking{
+    25%{color: red;}
+    50%{color: blue;}
+    75%{color: yellow;}
+    90%{color: orange;}
+    100%{color: hotpink;}
+}
